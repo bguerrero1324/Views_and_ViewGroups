@@ -1,0 +1,42 @@
+1. Define the following design principles:
+    Singleton: defines a class that has only one instance
+    Factory: an interface or class that creates an object and lets a subclass choose which class to initialize.
+    Builder: constructs a complex object from simple objects
+    Facade: every (abstract) factory is a facade. Hides complexities of a subsystem from the client.
+    Prototype: cloning or recreating an object to be used by many
+2. What is the differences in ART and Dalvik?
+    -ART uses ahead of time approach while Dalvik uses just in time
+    -ART takes longer to boot
+    -ART requires more space for installation
+    -Battery is better utilized in ART
+    -ART is better at garbage collection
+3. What is the android manifest used for?
+    The AndroidManifest.xml file describes information about the app being built to the Android tools,
+    the OS, etc.
+4. Define the difference in Runtime and Compile Time.
+    Compile-time is when the code is converted into executable code and run-time
+    is when the executable code is actually running.
+5. How does each of the following units of measure for view work:
+    dp - a unit that is based on the density of the device screen. One dp is one pixel on a 160 dpi screen.
+    sp - just like dp, but the font size is set by the user's font size preference
+    px - the pixels on the screen
+    pt -1/72 of an inch
+    in - size of the screen in inches
+    mm - size of the screen in millimeters
+6. Describe what each section of the Android Platform arch. details.
+    -Linux kernel: acts as a level of abstraction between the device hardware. It also contains
+     the hardware drivers of the keypad, display, camera, etc.
+    -Libraries: open-source web browser engine webkit, SQLite database, SSL libraries, etc.
+    -Android Runtime: this has the Dalvik Virtual Machine, which is a java virtual machine designed for Android
+    -Application framework: provides many services to applications in the form of Java classes.
+        -Activity Manager
+        -Content Providers
+        -Resource Manager
+        -Notifications Manager
+        -View System
+7. What is reflection in JAVA?
+    An API that is used to examine/modify the behavior of methods, classes, and interfaces at runtime.
+8. How does gradle work behind the scene?
+    Gradle keeps track of tasks and makes sure they run in the correct order. Gradle also keeps track of
+    which tasks have changed since last being ran. This means that it only executes parts of a
+    task graph that are affected by a task that was changed.

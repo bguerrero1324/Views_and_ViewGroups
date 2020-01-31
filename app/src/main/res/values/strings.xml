@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Views and ViewGroups</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="city_hint">City</string>
+    <string name="state_hint">State</string>
+    <string name="zip_hint">Zip Code</string>
+    <string name="generate_label_text">Welcome!</string>
+</resources>

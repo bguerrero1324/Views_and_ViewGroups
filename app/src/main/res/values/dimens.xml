@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_for_name">8dp</dimen>
+    <dimen name="margin_street">8dp</dimen>
+    <dimen name="margin_for_locale">8dp</dimen>
+    <dimen name="margin_for_label">8dp</dimen>
+</resources>
